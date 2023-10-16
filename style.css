@@ -1,12 +1,14 @@
 
 iframe {
-    border-radius: 15px; /* Adjust the radius value as needed */
+  border-radius: 15px;
+  width: 400px; /* Adjust the radius value as needed */
 	height: 400px;
 
 }
 #contact {
   background: #f4f2ed;
   padding: 5rem 0;
+  padding-bottom: 0;
 }
 .container {
 	max-width: 1100px;
@@ -59,52 +61,70 @@ iframe {
   background-color: #e4b95b;
   color: #383848;
 }
-.cv-section input {
-	padding: auto;
-	display: flex;
-	border-radius: 10px;
-    margin-bottom: 20px;
-	text-align: center;
-	width: 800px;
-	
-}
-
-.reservation-section form {
-	text-align: center;
-    display: flex;
-    flex-direction: column;
-}
-.cv-section.reservation-section {
-	height: 100%;
-    display: flex;
-    flex-direction: row; /* Align the divs in a row */
-}
 
 
+ .container3{
+  align-items: center;
+  padding: 20px;
+  max-width: 700px;
+  width: 100%;
+  border-radius: 5px;
+ }
+ .container3 .title{
+  font-size:25px ;
+  font-weight: 500;
+  position: relative;
+ }
+ .container3 title::before{
+  content: '';
+  position:absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
 
-.reservation-section label {
-    margin-bottom: 5px;
-}
+ }
+ .container3 form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 
-.reservation-section input {
-	margin: auto;
-    margin-bottom: 10px;
-	border-radius: 10px;
-}
+ }
+ form .user-details .input-box{
+  margin-bottom: 15px;
+  width: calc(100%/2-20px);
+ }
+ .user-details .input-box .details{
+  display: block;
+  font-weight:500 ;
+  margin-bottom: 5px;
+ }
+ .user-details .input-box input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
 
+ }
+ form .button{
+  height: 45px;
+  margin: 45px 0;
+ }
 
-
-.reservation-section button {
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-.reservation-section button:hover {
-    background-color: #0056b3;
-}
-
+ form .button input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  color: #000;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  background-color:white;
+ }
 
 
