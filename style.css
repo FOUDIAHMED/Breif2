@@ -1,4 +1,6 @@
-
+body{
+  background-color: #f4f2ed;
+}
 iframe {
   border-radius: 15px;
   width: 400px; /* Adjust the radius value as needed */
@@ -64,6 +66,10 @@ iframe {
 
 
  .container3{
+  margin-top: 50px;
+  background-color: #f4f2ed;
+  border: 1px solid;
+  margin-left: 300px;
   align-items: center;
   padding: 20px;
   max-width: 700px;
